@@ -67,6 +67,14 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
+asciidoc: 
+  processor: asciidoctor
+  ext: asciidoc,adoc,ad
+  page_attribute_prefix: jekyll
+  base_dir: :source
+  
+asciidoctor: {}
+
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
